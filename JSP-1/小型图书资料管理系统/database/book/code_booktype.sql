@@ -1,0 +1,11 @@
+INSERT INTO `code_booktype` VALUES ('G', '教育', 'leaf');
+INSERT INTO `code_booktype` VALUES ('J', '艺术', 'leaf');
+INSERT INTO `code_booktype` VALUES ('T', '工程技术', 'node');
+INSERT INTO `code_booktype` VALUES ('TN', '摄录像', 'leaf');
+INSERT INTO `code_booktype` VALUES ('TP', '计算机工程技术', 'node');
+INSERT INTO `code_booktype` VALUES ('TP2', 'TP2', 'node');
+INSERT INTO `code_booktype` VALUES ('TP23', 'TP23', 'leaf');
+INSERT INTO `code_booktype` VALUES ('TP3', '计算机硬件', 'node');
+INSERT INTO `code_booktype` VALUES ('TP31', '计算机软件', 'leaf');
+INSERT INTO `code_booktype` VALUES ('TP39', '计算机应用', 'leaf');
+INSERT INTO `code_booktype` VALUES ('TP4', 'TP4', 'leaf');

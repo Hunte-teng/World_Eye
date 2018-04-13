@@ -1,0 +1,10 @@
+INSERT INTO `testquestions` VALUES (1, '下面哪一个不是JSP本身已加载的基本类？', 'A、java.lang.*', 'B、java.io.*', 'C、javax.servlet.*', 'D、javax.servlet.jsp.*', 'B');
+INSERT INTO `testquestions` VALUES (2, '下述选项中不属于JDBC基本功能的是（）', 'A、与数据库建立连接', 'B、 提交SQL语句', 'C、处理查询结果', 'D、数据库维护管理', 'D');
+INSERT INTO `testquestions` VALUES (3, '在JSP中使用<jsp:getProperty>标记时，不会出现的属性是：（）', 'A、name', 'B、property', 'C、value', 'D、以上皆不会出现', 'C');
+INSERT INTO `testquestions` VALUES (4, '在JSP中调用JavaBean时不会用到的标记是：（）', 'A、javabean', 'B、jsp:useBean', 'C、jsp:setProperty', 'D、jsp:getProperty', 'A');
+INSERT INTO `testquestions` VALUES (5, 'Servlet程序的入口点是：（）', 'A、init（）', 'B、main（）', 'C、service（）', 'D、doGet（）', 'A');
+INSERT INTO `testquestions` VALUES (6, '在Java EE中的MVC 设计模式中，（ ）负责接受客户端的请求数据', 'A、JavaBean', 'B、JSP', 'C、Servlet', 'D、HTML', 'C');
+INSERT INTO `testquestions` VALUES (7, '在Java Web开发中，如果某个数据需要跨多个请求存在，则数据应该存储在（ ）中', 'A、session', 'B、page', 'C、request', 'D、response', 'A');
+INSERT INTO `testquestions` VALUES (8, '开发Java Web 应用程序的时候，创建一个Servlet ，该Servlet 重写了父类的doGet （）和doPost （）方法，那么其父类可能是（ ）', 'A、RequestDispatcher', 'B、HttpServletResponse', 'C、HttpServletRequest', 'D、HttpServlet', 'D');
+INSERT INTO `testquestions` VALUES (9, 'JSTL 标签的分类以下说法正确的是( )', 'A、通用标签与迭代标签', 'B、核心标签与sql 标签', 'C、核心标签与迭代标签', 'D、以上都不是', 'D');
+INSERT INTO `testquestions` VALUES (10, '在JSTL 的达代标签<forEach>的属性中，用于指定要遍历的对象集合（ ）', 'A、var', 'B、items', 'C、value', 'D、varStatus', 'B');

@@ -1,0 +1,4 @@
+INSERT INTO `user` VALUES ('a', '123456', '15642692367', '1公寓');
+INSERT INTO `user` VALUES ('admin', '123456', '15642692367', '1公寓');
+INSERT INTO `user` VALUES ('username', '123456', '11111111111', '1');
+INSERT INTO `user` VALUES ('张三', '123456', '15642692367', '1公寓');

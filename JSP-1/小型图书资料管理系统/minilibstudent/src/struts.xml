@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="minilibstudent"   extends="struts-default">
+		<action name="login" class="minilib.action.LoginAction">
+			<result name="menu">/main/main.jsp</result>
+			<result name="login">/main/login.jsp</result>
+		</action>
+	 	<action name="*ManageTitlesAction" class="minilib.action.ManageTitlesAction" method="{1}">    
+			<result name="addbook" type="chain">findBookTypeManageCodeAction</result>
+			<result name="querybook">/book/QueryBookResults.jsp</result>
+			<result name="fuzzyquerybook">/book/QueryBookResults.jsp</result>
+		</action>
+		<action name="*ManageUserAction" class="minilib.action.ManageUserAction" method="{1}">
+	 	    <result name="useradd">/user/AddUser.jsp</result>
+	 	    <result name="userfind">/user/QueryUserShow.jsp</result>
+		</action>
+		<action name="*ManageCodeAction" class="minilib.action.ManageCodeAction" method="{1}">
+		    <result name="booktype">/book/AddBook.jsp</result>
+	 	    <result name="pressadd">/code/AddPress.jsp</result>
+	 	    <result name="pressquery">/code/QueryPressShow.jsp</result>
+	 	    <result name="booktypeadd">/code/AddBookType.jsp</result>
+	 	    <result name="booktypequery">/code/QueryBookTypeShow.jsp</result>
+		</action>
+		<action name="*ManageTAction" class="minilib.action.ManageTAction" method="{1}">
+	 	    <result name="addborrow" type="chain">findubManageTAction</result>
+	 	    <result name="findub">/core/AddBorrow.jsp</result>
+	 	    <result name="findborrow">/core/QueryBorrow.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,12 @@
+INSERT INTO `food` VALUES ('01', 'BBQ烤肉披萨', '披萨', '1', '33');
+INSERT INTO `food` VALUES ('02', '榴莲至尊披萨', '披萨', '2', '35');
+INSERT INTO `food` VALUES ('03', '夏威夷风情披萨', '披萨', '3', '27');
+INSERT INTO `food` VALUES ('04', '四种奶酪披萨', '披萨', '4', '40');
+INSERT INTO `food` VALUES ('05', '黑椒牛肉披萨', '披萨', '5', '23');
+INSERT INTO `food` VALUES ('06', 'BBQ6', '披萨', '6', '18');
+INSERT INTO `food` VALUES ('07', 'BBQ7', '披萨', '7', '33');
+INSERT INTO `food` VALUES ('08', 'BBQ8', '披萨', '8', '26');
+INSERT INTO `food` VALUES ('09', '珍珠奶茶', 'yp', '11', '9');
+INSERT INTO `food` VALUES ('10', '椰果奶茶', '饮品', '12', '12');
+INSERT INTO `food` VALUES ('11', 'milk3', '饮品', '13', '13');
+INSERT INTO `food` VALUES ('12', 'milk4', '饮品', '14', '33');
